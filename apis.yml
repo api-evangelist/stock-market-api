@@ -1,0 +1,54 @@
+name: SteadyAPI Stock Market API
+description: >-
+  SteadyAPI is a multi-domain data-API platform whose Finance/Stock Market API provides real-time and historical stock
+  market data, company financials, insider and institutional trading data, earnings, options data, and more across US
+  and international markets. A single API key also unlocks crypto, real estate, sports, e-commerce, social media,
+  travel, and web-scraping endpoints under one REST/JSON base URL.
+url: https://raw.githubusercontent.com/api-evangelist/stock-market-api/refs/heads/main/apis.yml
+created: '2026-09-20'
+modified: '2026-09-20'
+specificationVersion: '0.21'
+tags:
+  - financial-data
+  - stock-market
+  - options
+  - cryptocurrency
+  - real-estate
+  - e-commerce
+  - social-media
+  - sports-data
+  - travel
+  - web-scraping
+  - market-data
+  - rest-api
+apis:
+  - name: SteadyAPI
+    description: >-
+      REST/JSON API providing stock market, options, crypto, real estate, sports, e-commerce, social media, travel, and
+      web-scraping data. Bearer-token or apikey auth, 15 req/sec rate limit.
+    humanURL: https://docs.steadyapi.com
+    baseURL: https://api.steadyapi.com
+    tags:
+      - financial-data
+      - stock-market
+      - options
+      - cryptocurrency
+      - real-estate
+      - e-commerce
+      - social-media
+      - sports-data
+      - travel
+      - web-scraping
+      - market-data
+      - rest-api
+    properties:
+      - type: Documentation
+        url: https://docs.steadyapi.com
+maintainers:
+  - FN: SteadyAPI Stock Market API
+    url: https://steadyapi.com
+generated:
+  by: apis.io/add
+  model: claude-opus-4-8
+  confidence: 95
+  at: '2026-09-20T22:17:25.074Z'
